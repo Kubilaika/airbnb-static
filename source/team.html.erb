@@ -1,17 +1,19 @@
 
 
-<div id="team">
-  <h1>Our team</h1>
-  <ul class="list-inline text-center">
-    <% ["Loïc", "Ariane"].each do |member| %>
+<div id="team" class= "text-center">
+  <h1 class="padding" >Our team</h1>
+  <ul class="list-inline">
+    <% ["loic", "ariane"].each do |member| %>
       <li>
-        <%= image_tag "#{member}.png", class: "img-circle" %>
+        <%= image_tag "#{member}.png", class: "img-circle avatar-verylarge margin" %>
         <h3><%= member.capitalize %></h3>
       </li>
     <% end %>
   </ul>
-  <% link_to "/", class: "contact" do %>
-       <i class="fa fa-envelope"></i>
-       contact@airbnb.com
-  <% end %>
+    <div class="margin">
+      <% link_to "/", class: "contact-size" do %>
+           <i class="fa fa-envelope"></i>
+           contact@airbnb.com
+      <% end %>
+    </div>
 </div>

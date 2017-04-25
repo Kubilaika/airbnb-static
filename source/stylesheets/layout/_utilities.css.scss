@@ -10,6 +10,14 @@
   padding-bottom: 5em;
 }
 
+.margin {
+  margin: 20px;
+}
+
+.padding {
+  padding: 50px;
+}
+
 // Backgrounds
 .bg-text {
   background: #4a4a4a;
@@ -22,4 +30,8 @@
 }
 .bg-facebook {
   background: #3b5998;
+}
+
+.contact-size {
+  font-size: 20px;
 }
